@@ -8,7 +8,7 @@ module.exports = {
     async execute(interaction) {
         
         const attachment = new MessageAttachment(
-            "https://github.com/thiagowaib/osvaldo/blob/main/src/assets/hardol1.jpg"
+            "https://github.com/thiagowaib/osvaldo/blob/main/src/assets/harold1.jpg"
         )
         console.log(attachment)
         await interaction.reply(`

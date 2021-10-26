@@ -25,8 +25,6 @@ Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de adm
 * **/random** <br>
 *???*
 
-<br>
-
 ## 🚀 Como Hospedar o Osvaldo?
 
 Caso você queira hospedar o Osvaldo em sua máquina, você precisará ter o **[Node.js](https://nodejs.org/en/ "Node.js")** instalado em sua máquina *(> v16.0.0)*.

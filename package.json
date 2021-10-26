@@ -6,7 +6,6 @@
   "author": "thiagowaib <thiagowaib@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/helper-compilation-targets": "^7.15.4",
     "@discordjs/builders": "^0.7.0",
     "@discordjs/rest": "^0.1.0-canary.0",
     "discord-api-types": "^0.24.0",
@@ -17,7 +16,9 @@
   "scripts": {
     "start": "node ."
   },
-  "engines":{
-    "node": "16.x"
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x",
+    "yarn": "1.22.x"
   }
 }

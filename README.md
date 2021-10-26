@@ -1,9 +1,9 @@
 # Osvaldo
 
 <img src="https://github.com/thiagowaib/osvaldo/blob/main/github/osvaldo-bot.jpg" 
-width="auto" height="100px" alt="Bot Osvaldo">
+width="auto" height="80px" alt="Bot Osvaldo">
 
-> Osvaldo é um bot de servidores do [discord](https://discord.com "discord") feito para trazer as pessoas as utilidades mais inúteis que alguém poderia imaginar.
+> Osvaldo é um bot de servidores do [discord](https://discord.com "discord") feito para trazer para as pessoas, as utilidades mais inúteis que alguém poderia imaginar.
 
 <br>
 

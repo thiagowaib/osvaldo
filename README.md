@@ -1,15 +1,29 @@
 # Osvaldo
 
-<img src="https://github.com/thiagowaib/osvaldo/blob/main/assets/github/osvaldo-bot.jpg" 
+<img src="https://github.com/thiagowaib/osvaldo/blob/main/github/osvaldo-bot.jpg" 
 width="auto" height="150px" alt="Bot Osvaldo">
 
 > Osvaldo é um bot de servidores do [discord](https://discord.com "discord") feito para trazer as pessoas as utilidades mais inúteis que alguém poderia imaginar.
 
+<br>
 ## 🤖 Como colocar o Osvaldo no meu servidor?
 
 Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de administrador nele e acessar ** [Essa URL](https://discord.com/api/oauth2/authorize?client_id=902586917927944223&permissions=3202048&scope=bot%20applications.commands "Essa URL") **.
 
 > Obs: O Bot osvaldo não está atualmente sendo hospedado em nenhum lugar, então pode ser que você encontre-o offline durante alguns períodos.
+
+<br>
+
+## 💻 Comandos:
+
+* **/server**
+*Mostra informações genéricas do Servidor*
+* **/user**
+*Mostra informações genéricas do Usuário*
+* **/ping**
+*Pong*
+* **/random**
+*???*
 
 <br>
 

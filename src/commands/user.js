@@ -8,9 +8,9 @@ module.exports = {
     .setDescription("Traz você, para você...   O_o"),
     async execute(interaction) {
 
-        const attachment = new MessageAttachment(
-            "https://giant.gfycat.com/BoldFlickeringAmericanshorthair.mp4"
-        )
+        // const attachment = new MessageAttachment(
+        //     "https://giant.gfycat.com/BoldFlickeringAmericanshorthair.mp4"
+        // )
         const daySinceCreate = Math.floor((new Date().getTime() - interaction.user.createdAt.getTime())/(1000*60*60*24))
 
         await interaction.reply(`
@@ -20,8 +20,8 @@ module.exports = {
             daySinceCreate
         } dias que você criou essa conta${daySinceCreate>365?", quanta coisa!":"."}
         `)
-        if(daySinceCreate>365){
-            await interaction.followUp({files: [attachment]})
-        }
+        // if(daySinceCreate>365){
+        //     await interaction.followUp({files: [attachment]})
+        // }
     },
 }

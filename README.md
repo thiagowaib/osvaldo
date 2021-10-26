@@ -6,6 +6,7 @@ width="auto" height="100px" alt="Bot Osvaldo">
 > Osvaldo é um bot de servidores do [discord](https://discord.com "discord") feito para trazer as pessoas as utilidades mais inúteis que alguém poderia imaginar.
 
 <br>
+
 ## 🤖 Como colocar o Osvaldo no meu servidor?
 
 Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de administrador nele e acessar ** [Essa URL](https://discord.com/api/oauth2/authorize?client_id=902586917927944223&permissions=3202048&scope=bot%20applications.commands "Essa URL") **.

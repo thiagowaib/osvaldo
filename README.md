@@ -24,6 +24,8 @@ Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de adm
 *Pong*
 * **/random** <br>
 *???*
+* **/help** <br>
+*Traz o link para esse repositório*
 
 ## 🚀 Como Hospedar o Osvaldo?
 

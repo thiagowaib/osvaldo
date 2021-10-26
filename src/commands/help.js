@@ -5,6 +5,6 @@ module.exports = {
     .setName("help")
     .setDescription("Link de Suporte"),
     async execute(interaction) {
-        await interaction.reply("https://github.com/thiagowaib/osvaldo")
+        await interaction.reply("Comandos atuais:\n---------------\n/ping\n/user\n/server\n/random\n---------------\nPara mais informações acesse: https://github.com/thiagowaib/osvaldo")
     },
 }

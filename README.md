@@ -16,13 +16,13 @@ Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de adm
 
 ## 💻 Comandos:
 
-* **/server**
+* **/server** <br>
 *Mostra informações genéricas do Servidor*
-* **/user**
+* **/user** <br>
 *Mostra informações genéricas do Usuário*
-* **/ping**
+* **/ping** <br>
 *Pong*
-* **/random**
+* **/random** <br>
 *???*
 
 <br>

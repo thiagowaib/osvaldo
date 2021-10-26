@@ -29,6 +29,8 @@ Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de adm
 
 ## 🚀 Como Hospedar o Osvaldo?
 
+> O Osvaldo está atualmente hospedado no [Heroku](https://www.heroku.com "Heroku"), mas caso aconteça algum imprevisto ele poderá ficar offline. Se isso ocorrer, você pode hospedar temporariamente o Osvaldo localmente:
+
 Caso você queira hospedar o Osvaldo em sua máquina, você precisará ter o **[Node.js](https://nodejs.org/en/ "Node.js")** instalado em sua máquina *(> v16.0.0)*.
 
 Após instalar o Node.js e fazer o download do repositório, você simplesmente precisará inicializar o bot rodando esse código no *root* do diretório:

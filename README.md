@@ -35,6 +35,10 @@ Após instalar o Node.js e fazer o download do repositório, você simplesmente 
 
     node .
 
+**OU**
+
+Execute o arquivo run.bat
+
 > Se você ver a mensagem `Bot Ready!` no console, significa que deu tudo certo!
 
 <br>

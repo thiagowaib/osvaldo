@@ -1,0 +1,17 @@
+{
+  "name": "osvaldo",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "https://github.com/thiagowaib/osvaldo.git",
+  "author": "thiagowaib <thiagowaib@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/helper-compilation-targets": "^7.15.4",
+    "@discordjs/builders": "^0.7.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0",
+    "events": "^3.3.0"
+  }
+}

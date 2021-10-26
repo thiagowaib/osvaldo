@@ -8,7 +8,7 @@
 
 ## 🤖 Como colocar o Osvaldo no meu servidor?
 
-Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de administrador nele e acessar ** [Essa URL](https://discord.com/api/oauth2/authorize?client_id=902586917927944223&permissions=3202048&scope=bot%20applications.commands "Essa URL") **.
+Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de administrador nele e acessar **[Essa URL](https://discord.com/api/oauth2/authorize?client_id=902586917927944223&permissions=3202048&scope=bot%20applications.commands "Essa URL")**.
 
 > Obs: O Bot osvaldo não está atualmente sendo hospedado em nenhum lugar, então pode ser que você encontre-o offline durante alguns períodos.
 
@@ -29,7 +29,7 @@ Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de adm
 
 ## 🚀 Como Hospedar o Osvaldo?
 
-Caso você queira hospedar o Osvaldo em sua máquina, você precisará ter o ** [Node.js](https://nodejs.org/en/ "Node.js") ** instalado em sua máquina (v. > 16.0.0).
+Caso você queira hospedar o Osvaldo em sua máquina, você precisará ter o **[Node.js](https://nodejs.org/en/ "Node.js")** instalado em sua máquina *(> v16.0.0)*.
 
 Após instalar o Node.js e fazer o download do repositório, você simplesmente precisará inicializar o bot rodando esse código no *root* do diretório:
 

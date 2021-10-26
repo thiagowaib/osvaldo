@@ -1,0 +1,2 @@
+# osvaldo
+Bot do Discord

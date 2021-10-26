@@ -15,10 +15,5 @@
   },
   "scripts": {
     "start": "node ."
-  },
-  "engines": {
-    "node": "16.x",
-    "npm": "8.x",
-    "yarn": "1.22.x"
   }
 }

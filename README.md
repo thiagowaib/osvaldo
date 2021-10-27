@@ -20,12 +20,25 @@ Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de adm
 *Mostra informações genéricas do Servidor*
 * **/user** <br>
 *Mostra informações genéricas do Usuário*
+* **/roll {type: NUMBER}** <br>
+*Retorna o resultado de um dado de lado especificado pelo "type"*
 * **/ping** <br>
 *Pong*
 * **/random** <br>
 *???*
 * **/help** <br>
-*Traz o link para esse repositório*
+*Mostra os comandos disponíveis e o link para esse repositório*
+
+## 🤝 Como contribuir?
+* Para contribuir com **sugestões gerais** sobre o bot, é só responder à **[essa thread](https://github.com/thiagowaib/osvaldo/issues/1 "essa thread")!**
+
+* Para sugerir **novos comandos** para o bot, responde **[nessa thread](https://github.com/thiagowaib/osvaldo/issues/2 "nessa thread")!**
+
+* Caso queira reportar algum **bug** que tenha encontrado, vá **[nessa thread](https://github.com/thiagowaib/osvaldo/issues/3 "nessa thread").**
+
+> Obrigado por ajudar à criar um Osvaldo cada vez melhor! 
+
+<br>
 
 ## 🚀 Como Hospedar o Osvaldo?
 

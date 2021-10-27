@@ -29,6 +29,8 @@ Para adicionar o Osvaldo no seu servidor preferido, basta ter permissões de adm
 * **/help** <br>
 *Mostra os comandos disponíveis e o link para esse repositório*
 
+<br>
+
 ## 🤝 Como contribuir?
 * Para contribuir com **sugestões gerais** sobre o bot, é só responder à **[essa thread](https://github.com/thiagowaib/osvaldo/issues/1 "essa thread")!**
 

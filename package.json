@@ -14,7 +14,7 @@
     "events": "^3.3.0"
   },
   "scripts": {
-    "start": "node ."
+    "start": "node src/deploy-commands.js && node ."
   },
   "engines": {
     "node": "16.x",

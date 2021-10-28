@@ -8,7 +8,7 @@ module.exports = {
     async execute(interaction) {
         const embed = new MessageEmbed()
         .setColor(`#f12424`)
-        .setAuthor(`Pong!`, "https://github.com/thiagowaib/osvaldo/blob/main/src/assets/raquete.png?raw=true")
+        .setAuthor(`Pong!`, "https://raw.githubusercontent.com/thiagowaib/osvaldo/main/src/assets/raquete.png")
         await interaction.reply({embeds: [embed]})
     },
 }

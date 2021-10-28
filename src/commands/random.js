@@ -11,7 +11,7 @@ module.exports = {
         .setTitle(`Clica aqui`)
         .setDescription("Não é vírus")
         .setURL("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-        .setThumbnail("https://github.com/thiagowaib/osvaldo/blob/main/src/assets/virus.png?raw=true")
+        .setThumbnail("https://raw.githubusercontent.com/thiagowaib/osvaldo/main/src/assets/virus.png")
         await interaction.reply({embeds: [embed]})
     },
 }

@@ -16,11 +16,8 @@ module.exports = {
 
             const embed = new MessageEmbed()
             .setColor("#f12424")
-            .setAuthor(`O dado rolou...`, "https://github.com/thiagowaib/osvaldo/blob/main/src/assets/dado.png?raw=true")
-            .addFields(
-                // {name: "\u200B", value: "\u200B", inline: false},
-                {name: `    ${result}`, value: ``, inline: true},
-            )
+            .setAuthor(`O dado rolou...`, "https://raw.githubusercontent.com/thiagowaib/osvaldo/main/src/assets/dado.png")
+            .setTitle(`${result}`)
             await interaction.reply({embeds: [embed]})
         }else{
             await interaction.reply({content: "Especifique um tamanho válido para jogar o dado: _/roll 20_ por exemplo", ephemeral: true})

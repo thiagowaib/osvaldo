@@ -28,7 +28,7 @@ module.exports = {
                 try{
                     const user = await interaction.client.users.fetch(`${targetID}`)
                     if(!user.bot){
-                        await user.send({embeds: [embed]})
+                        await user.send({embeds: [embed], tts: true})
                         await interaction.reply({content: "Mensagem enviada ;)", ephemeral: true})
                     }else{
                         await interaction.reply({content: "Desculpa, mas eu não converso com outros bots >:(", ephemeral: true})

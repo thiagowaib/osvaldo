@@ -24,6 +24,8 @@ Para adicionar o Osvaldo no seu servidor, basta ter permissões de administrador
 *Pong*
 * **/random** <br>
 *???*
+* **/dm {id: STRING} {content: STRING}** <br>
+*Envia uma mensagem ao ID do contato especificado*
 * **/help** <br>
 *Mostra os comandos disponíveis e o link para esse repositório*
 

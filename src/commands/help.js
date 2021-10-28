@@ -21,6 +21,7 @@ module.exports = {
             {name: "/ping", value: "pong!", inline: false},
             {name: "/roll", value: "joga um dado;", inline: false},
             {name: "/random", value: "???", inline: false},
+            {name: "/dm", value: "Envia uma mensagem privada", inline: false},
         )
         .setTimestamp()
         .setFooter("Osvaldo - A solução que você nunca quis")

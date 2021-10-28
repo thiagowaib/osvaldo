@@ -1,6 +1,5 @@
 const { SlashCommandBuilder } = require("@discordjs/builders")
-const { MessageAttachment } = require("discord.js")
-const fs = require("fs")
+const { MessageEmbed } = require("discord.js")
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -8,20 +7,22 @@ module.exports = {
     .setDescription("Traz você, para você...   O_o"),
     async execute(interaction) {
 
-        // const attachment = new MessageAttachment(
-        //     "https://giant.gfycat.com/BoldFlickeringAmericanshorthair.mp4"
-        // )
-        const daySinceCreate = Math.floor((new Date().getTime() - interaction.user.createdAt.getTime())/(1000*60*60*24))
 
-        await interaction.reply(`
-        Alô alô alô ${interaction.user}! Ou melhor conhecido como:\nMr. ${
-            interaction.user.id
-        } (para a audiência robô xD)\n\nFazem... ${
-            daySinceCreate
-        } dias que você criou essa conta${daySinceCreate>365?", quanta coisa!":"."}
-        `)
-        // if(daySinceCreate>365){
-        //     await interaction.followUp({files: [attachment]})
-        // }
+        const daysSinceCreate = Math.floor((new Date().getTime() - interaction.user.createdAt.getTime())/(1000*60*60*24))
+
+
+        const embed = new MessageEmbed()
+        .setColor(`#${(interaction.user.hexAccentColor) ? (interaction.user.hexAccentColor).toString().replace("#","") : "f12424"}`)
+        .setTitle(`${interaction.user.username}`)
+        .setThumbnail(interaction.user.avatarURL())
+        .addFields(
+            // {name: "\u200B", value: "\u200B", inline: false},
+            {name: `#${(interaction.user.tag).toString().split("#")[1]}   `, value: "Sua Tag   ", inline: true},
+            {name: `${interaction.user.bot?"Sim,":"Não..."}`, value: `${interaction.user.bot?"Você é um bot":"Você não é um bot"}`, inline: true},
+            {name: `${daysSinceCreate}`, value: "Dias desde seu primeiro login", inline: false},
+        )
+        .setTimestamp()
+        await interaction.reply({embeds: [embed]})
+
     },
 }

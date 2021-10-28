@@ -1,18 +1,21 @@
 const { SlashCommandBuilder } = require("@discordjs/builders")
-const { MessageAttachment } = require("discord.js")
+const { MessageEmbed } = require("discord.js")
 
 module.exports = {
     data: new SlashCommandBuilder()
     .setName("server")
     .setDescription("Traz algumas informações do servidor"),
     async execute(interaction) {
-
-        // const attachment = new MessageAttachment("https://github.com/thiagowaib/osvaldo/blob/main/src/assets/harold1.jpg")
-
-        await interaction.reply(`
-        Estou falando diretamente do ${interaction.guild.name}! Meu 2º servidor favorito ;)\nVocês tem ${interaction.guild.memberCount} membros atualmente.
-        `)
-        // await interaction.followUp({files: [attachment]})
-
+        const embed = new MessageEmbed()
+        .setColor("#f12424")
+        .setTitle(`${interaction.guild.name}\n`)
+        .setThumbnail(interaction.guild.iconURL())
+        .addFields(
+            // {name: "\u200B", value: "\u200B", inline: false},
+            {name: `${interaction.guild.memberCount - 1}`, value: "Membros", inline: true},
+            {name: `Meu 2º`, value: "Servidor Favorito", inline: true},
+        )
+        .setTimestamp()
+        await interaction.reply({embeds: [embed]})
     },
 }

@@ -6,7 +6,7 @@ module.exports = {
     .setName("roll")
     .setDescription("Joga um dado")
     .addStringOption((option)=>
-        option.setName("type").setDescription("Tipo do Roll")
+        option.setName("type").setDescription("Tipo do Roll").setRequired(true)
     ),
     async execute(interaction) {
         const end = parseInt(interaction.options.getString("type"))
